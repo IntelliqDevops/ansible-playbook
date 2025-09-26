@@ -8,7 +8,7 @@
   tasks:
     - name: Install/uninstall s/w applications
       apt:
-        name: "{{a}}"
-        state: "{{b}}"
-        update_cache: "{{c}}"
+        name: "{{software_namea}}"
+        state: "{{software_state}}"
+        update_cache: "{{repo}}"
 
